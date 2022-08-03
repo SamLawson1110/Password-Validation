@@ -13,7 +13,7 @@ const Validation = () => {
     })) {
       setErrorMessage('')
     } else {
-      setErrorMessage('Password needs to contain at least 1 uppercase letter, lowercase letter, number, special character, and at least 10 characters total')
+      setErrorMessage('Password needs to contain at least 1 uppercase letter, lowercase letter, number, special character, and at least 10 characters in total')
     }
   }
  
